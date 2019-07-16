@@ -1,0 +1,27 @@
+{
+	"name": "@clarklindeveloper/sass-flexbox-grid",
+	"version": "1.0.0",
+	"description": "super lightweight scss flex grid",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"sass": "sass styles/sass-flexbox-grid/sass-flexbox-grid.scss build/styles/sass-flexbox-grid.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/clarklindeveloper/sass-flexbox-grid.git"
+	},
+	"keywords": [
+		"flexgrid",
+		"scss",
+		"javascript"
+	],
+	"author": "clarklindeveloper",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/clarklindeveloper/sass-flexbox-grid.git"
+	},
+	"homepage": "https://github.com/clarklindeveloper/sass-flexbox-grid#readme",
+	"dependencies": {
+		"sass": "^1.22.5"
+	}
+}

@@ -1,0 +1,56 @@
+$gutter: 15px;
+$totalcolumns: 12;
+$units: 'px';
+$breakpoints: (
+	'sm': 577,
+	'md': 768,
+	'lg': 992,
+	'xl': 1200
+); //ie. <576, 577-767, 768-991, 992-1199, > 1200 (these are points where the grid will break and move to next media query)
+
+.row {
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	flex: 0 1 auto;
+	flex-direction: column;
+	flex-wrap: wrap;
+	// // Overrides flexbox's default behavior of making all children equal height
+	// align-items: flex-start; // If this was not in place it would require two classes to make a row full of unequal height columns aligned top, middle, bottom
+}
+
+.col {
+	box-sizing: border-box;
+	flex-grow: 1;
+	flex-basis: 1;
+	max-width: 100%;
+	padding: $gutter;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+@each $prop, $val in $breakpoints {
+	@media #{'(min-width: #{$val}#{$units})'} {
+		//1 to totalcolumns
+		.row {
+			flex-direction: row;
+		}
+		.col {
+			width: auto;
+		}
+		@for $i from 1 through $totalcolumns {
+			.col-#{$prop}-#{$i} {
+				width: auto;
+				box-sizing: border-box;
+				flex-basis: 100% / $totalcolumns * $i;
+				max-width: 100% / $totalcolumns * $i;
+				padding: $gutter;
+			}
+			.col-#{$prop}-offset-#{$i} {
+				margin-left: 100% / $totalcolumns * $i;
+			}
+		}
+	}
+}
