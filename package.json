@@ -4,7 +4,8 @@
 	"description": "super lightweight scss flex grid",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"sass": "sass styles/sass-flexbox-grid/sass-flexbox-grid.scss build/styles/sass-flexbox-grid.css"
+		"sass": "sass styles/sass-flexbox-grid/sass-flexbox-grid.scss build/styles/sass-flexbox-grid.css",
+		"start": "sass styles/sass-flexbox-grid/sass-flexbox-grid.scss styles/sass-flexbox-grid/sass-flexbox-grid.css"
 	},
 	"repository": {
 		"type": "git",
