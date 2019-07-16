@@ -21,7 +21,7 @@
 		"url": "https://github.com/clarklindeveloper/sass-flexbox-grid.git"
 	},
 	"homepage": "https://github.com/clarklindeveloper/sass-flexbox-grid#readme",
-	"dependencies": {
+	"devDependencies": {
 		"sass": "^1.22.5"
 	}
 }
