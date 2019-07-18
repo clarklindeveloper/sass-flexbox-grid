@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="styles/styles.css" />
+
+		<!-- import css styles -->
+		<link rel="stylesheet" type="text/css" href="./sass-flexbox-grid.css" />
+		<!-- css for this demo -->
+		<link rel="stylesheet" type="text/css" href="./demo.css" />
+	</head>
+	<body>
+		<h2>Responsive</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-red col-sm-4 col-md-6 col-lg-8">
+					hello world
+				</div>
+				<div class="col-green col-sm-6 col-md-4 col-lg-2">
+					hello world
+				</div>
+				<div class="col-blue col-sm-2 col-md-2 col-lg-2">
+					hello world
+				</div>
+			</div>
+		</div>
+
+		<h2>Offsets</h2>
+		<div class="container">
+			<div class="row">
+				<div
+					class="col-red col-sm-2 col-sm-offset-2 col-md-offset-0 col-md-6 col-lg-offset-0 col-lg-6"
+				>
+					hello world
+				</div>
+				<div class="col-green col-sm-6 col-md-4 col-lg-4">
+					hello world
+				</div>
+				<div class="col-blue col-sm-2 col-md-2 col-lg-2">
+					hello world
+				</div>
+			</div>
+		</div>
+
+		<h2>Nested grid</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col col-red col-sm-4 col-md-6 col-lg-10">
+					<div class="container">
+						<div class="row">
+							<div class="col-orange col">
+								<div class="content">
+									1
+								</div>
+							</div>
+							<div class="col-orange col">
+								<div class="content">
+									2
+								</div>
+							</div>
+							<div class="col-orange col">
+								<div class="content">3</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-green col-sm-6 col-md-4 col-lg-1">
+					hello world
+				</div>
+				<div class="col-blue col-sm-2 col-md-2 col-lg-1">
+					hello world
+				</div>
+			</div>
+		</div>
+
+		<h2>Nested container-fluid</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col col-red col-sm-4 col-md-6 col-lg-10">
+					<div class="content">
+						<div class="row">
+							<div class="col-orange col">
+								<div class="content">
+									1
+								</div>
+							</div>
+							<div class="col-orange col">
+								<div class="content">
+									2
+								</div>
+							</div>
+							<div class="col-orange col">
+								<div class="content">3</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-green col-sm-6 col-md-4 col-lg-1">
+					hello world
+				</div>
+				<div class="col-blue col-sm-2 col-md-2 col-lg-1">
+					hello world
+				</div>
+			</div>
+		</div>
+
+		<h2>fluid</h2>
+		<div class="">
+			<div class="row">
+				<div class="col col-red">
+					hello
+				</div>
+			</div>
+		</div>
+
+		<h2>max width</h2>
+		<div class="wrapper container-fluid">
+			<div class="row">
+				<div class="col col-red">1</div>
+				<div class="col col-red">2</div>
+				<div class="col col-red">3</div>
+				<div class="col col-red">4</div>
+				<div class="col col-red">5</div>
+				<div class="col col-red">6</div>
+			</div>
+		</div>
+	</body>
+</html>

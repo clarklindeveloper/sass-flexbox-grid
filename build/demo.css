@@ -1,0 +1,34 @@
+body {
+	padding: 0;
+	margin: 0 !important;
+	overflow-x: hidden;
+}
+.col-red {
+	background-color: red;
+}
+
+.col-blue {
+	background-color: blue;
+}
+
+.col-green {
+	background-color: green;
+}
+
+.col-orange {
+	background-color: orange;
+}
+
+.container {
+	padding: 5px;
+}
+
+.container-fluid {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.content {
+	background-color: yellow;
+	box-sizing: border-box;
+}

@@ -1,6 +1,11 @@
-$gutter: 15px;
-$totalcolumns: 12;
 $units: 'px';
+
+$maxwidth: 1200px;
+
+$gutter: 10px;
+
+$totalcolumns: 12;
+
 $breakpoints: (
 	'sm': 577,
 	'md': 768,
@@ -8,14 +13,25 @@ $breakpoints: (
 	'xl': 1200
 ); //ie. <576, 577-767, 768-991, 992-1199, > 1200 (these are points where the grid will break and move to next media query)
 
+.wrapper {
+	box-sizing: border-box;
+	max-width: $maxwidth;
+	margin: 0 auto;
+}
+
+.container-fluid {
+	padding: $gutter;
+	margin: 0 auto;
+}
+
 .row {
 	box-sizing: border-box;
-	margin: 0 auto;
-	width: 100%;
 	display: flex;
 	flex: 0 1 auto;
 	flex-direction: column;
 	flex-wrap: wrap;
+	//compensate for children's gutter
+	margin: -$gutter/2;
 	// // Overrides flexbox's default behavior of making all children equal height
 	// align-items: flex-start; // If this was not in place it would require two classes to make a row full of unequal height columns aligned top, middle, bottom
 }
@@ -25,10 +41,10 @@ $breakpoints: (
 	flex-grow: 1;
 	flex-basis: 1;
 	max-width: 100%;
-	padding: $gutter;
 	display: block;
 	width: 100%;
 	height: 100%;
+	padding: $gutter / 2;
 }
 
 @each $prop, $val in $breakpoints {
@@ -40,16 +56,29 @@ $breakpoints: (
 		.col {
 			width: auto;
 		}
+
 		@for $i from 1 through $totalcolumns {
 			.col-#{$prop}-#{$i} {
 				width: auto;
 				box-sizing: border-box;
+				flex-shrink: 0;
+				flex-grow: 1;
 				flex-basis: 100% / $totalcolumns * $i;
 				max-width: 100% / $totalcolumns * $i;
-				padding: $gutter;
+				padding: $gutter / 2;
 			}
+		}
+
+		// allows reseting-offset
+		@for $i from 0 through $totalcolumns {
 			.col-#{$prop}-offset-#{$i} {
-				margin-left: 100% / $totalcolumns * $i;
+				@if (i == 0) {
+					//cant divide by zero check
+					margin-left: 0;
+				} @else {
+					margin-left: 100% / $totalcolumns * $i;
+					padding: $gutter/2;
+				}
 			}
 		}
 	}
