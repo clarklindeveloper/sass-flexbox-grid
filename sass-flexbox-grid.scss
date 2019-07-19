@@ -13,14 +13,43 @@ $breakpoints: (
 	'xl': 1200
 ); //ie. <576, 577-767, 768-991, 992-1199, > 1200 (these are points where the grid will break and move to next media query)
 
+$flex-direction: ('row', 'row-reverse', 'column', 'column-reverse');
+
+$justify-content: (
+	'flex-start',
+	'flex-end',
+	'center',
+	'space-between',
+	'space-around',
+	'space-evenly'
+);
+
+$align-items: ('stretch', 'flex-start', 'flex-end', 'center', 'baseline');
+$align-self: (
+	'stretch',
+	'flex-start',
+	'flex-end',
+	'center',
+	'baseline',
+	'auto'
+);
+$align-content: (
+	'flex-start',
+	'flex-end',
+	'center',
+	'space-between',
+	'space-around',
+	'stretch'
+);
+
 .wrapper {
 	box-sizing: border-box;
 	max-width: $maxwidth;
 	margin: 0 auto;
 }
 
-.container{
-	padding: 5px;
+.container {
+	padding: $gutter / 2;
 }
 
 .container-fluid {
@@ -50,7 +79,8 @@ $breakpoints: (
 	height: 100%;
 	padding: $gutter / 2;
 }
-
+//--------------------------------------------------------
+//create the row col- and col-offset classes
 @each $prop, $val in $breakpoints {
 	@media #{'(min-width: #{$val}#{$units})'} {
 		//1 to totalcolumns
@@ -85,5 +115,42 @@ $breakpoints: (
 				}
 			}
 		}
+	}
+}
+
+//--------------------------------------------------------
+// alignment classes
+//flex-direction
+@each $prop in $flex-direction {
+	.flex-direction-#{$prop} {
+		flex-direction: #{$prop};
+	}
+}
+
+//justify-content
+@each $prop in $justify-content {
+	.justify-content-#{$prop} {
+		justify-content: #{$prop};
+	}
+}
+
+//align-items
+@each $prop in $align-items {
+	.align-items-#{$prop} {
+		align-items: #{$prop};
+	}
+}
+
+//align-self
+@each $prop in $align-self {
+	.align-self-#{$prop} {
+		align-items: #{$prop};
+	}
+}
+
+//align-content
+@each $prop in $align-content {
+	.align-content-#{$prop} {
+		align-content: #{$prop};
 	}
 }

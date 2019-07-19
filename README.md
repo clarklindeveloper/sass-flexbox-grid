@@ -4,7 +4,14 @@ super lightweight flexgrid with scss
 
 also available at: https://www.npmjs.com/package/@clarklindeveloper/sass-flexbox-grid
 
-# Updates 1.0.5 
+# Update 1.0.6
+
+- Adding alignment classes:
+  - on the container: flex-direction, justify-content-, align-items-, align-content-,
+  - on individual flex item: align-self-
+  - changed container class default padding to gutter / 2
+
+# Updates 1.0.5
 
 - Tweak demo files and classes
 - moved .container class to sass-flexbox-grid
