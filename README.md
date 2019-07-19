@@ -4,6 +4,11 @@ super lightweight flexgrid with scss
 
 also available at: https://www.npmjs.com/package/@clarklindeveloper/sass-flexbox-grid
 
+# Updates 1.0.5 
+
+- Tweak demo files and classes
+- moved .container class to sass-flexbox-grid
+
 # Updates 1.0.4
 
 - changed package structure, moved sass-flexbox-grid.scss to root
