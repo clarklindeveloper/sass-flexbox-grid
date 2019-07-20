@@ -3,6 +3,7 @@
 super lightweight flexgrid with scss
 
 also available at: https://www.npmjs.com/package/@clarklindeveloper/sass-flexbox-grid
+preview: bit.ly/clarklindeveloper-sass-flexbox-grid
 
 # Update 1.0.6
 
