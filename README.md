@@ -6,6 +6,10 @@ also available at: https://www.npmjs.com/package/@clarklindeveloper/sass-flexbox
 
 preview: http://bit.ly/clarklindeveloper-sass-flexbox-grid
 
+# Update 1.0.8
+
+- Changed default value of .row flex-direction to row
+
 # Update 1.0.7
 
 - added support for xxl - 1600
