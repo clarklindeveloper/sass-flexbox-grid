@@ -62,7 +62,7 @@ $align-content: (
 	box-sizing: border-box;
 	display: flex;
 	flex: 0 1 auto;
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: wrap;
 	//compensate for children's gutter
 	margin: -$gutter/2;
