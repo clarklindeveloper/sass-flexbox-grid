@@ -2,9 +2,15 @@
 
 super lightweight flexgrid with scss
 
-also available at: https://www.npmjs.com/package/@clarklindeveloper/sass-flexbox-grid  
+also available at: https://www.npmjs.com/package/@clarklindeveloper/sass-flexbox-grid
 
 preview: http://bit.ly/clarklindeveloper-sass-flexbox-grid
+
+# Update 1.0.7
+
+- added support for xxl - 1600
+- summary of breakpoints <= 576, 577-767, 768-991, 992-1199, 1200-1599, > 1600
+- use calling all between range col-xxl-1 col-xxl-12
 
 # Update 1.0.6
 
