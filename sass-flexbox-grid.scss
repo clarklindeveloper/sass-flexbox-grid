@@ -2,7 +2,7 @@ $units: 'px';
 
 $maxwidth: 1200px;
 
-$gutter: 10px;
+$gutter: 20px;
 
 $totalcolumns: 12;
 
@@ -54,8 +54,9 @@ $align-content: (
 }
 
 .container-fluid {
-	padding: $gutter;
-	margin: 0 auto;
+	//padding: $gutter;
+	margin-left:-20px;
+	margin-right:-20px;
 }
 
 .row {
