@@ -70,7 +70,7 @@ $align-content: (
 	// align-items: flex-start; // If this was not in place it would require two classes to make a row full of unequal height columns aligned top, middle, bottom
 }
 
-.col {
+[class*='col-'] {
 	box-sizing: border-box;
 	flex-grow: 1;
 	flex-basis: 1;
@@ -87,9 +87,6 @@ $align-content: (
 		//1 to totalcolumns
 		.row {
 			flex-direction: row;
-		}
-		.col {
-			width: auto;
 		}
 
 		@for $i from 1 through $totalcolumns {
