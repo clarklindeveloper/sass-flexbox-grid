@@ -6,6 +6,9 @@ also available at: https://www.npmjs.com/package/@clarklindeveloper/sass-flexbox
 
 preview: http://bit.ly/clarklindeveloper-sass-flexbox-grid
 
+# Update 1.0.11
+- Version bump
+
 # Update 1.0.10 
 - fixed container-fluid top and bottom margins
 
