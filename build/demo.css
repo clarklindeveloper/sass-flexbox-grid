@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	overflow-x: hidden;
 	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
 }
 
 main{
@@ -10,23 +11,15 @@ main{
 	margin-right:20px;
 }
 
-.col-red {
-	background-color: red;
+h1,h2,h3,h4,h5,h6{
+	color:black;
 }
 
-.col-blue {
-	background-color: blue;
+section{	
+	/* border: 1px solid black; */
+	color: black;
+	padding-bottom: 100px;
 }
-
-.col-green {
-	background-color: green;
-}
-
-.col-orange {
-	background-color: orange;
-}
-
-.content {
-	background-color: yellow;
-	box-sizing: border-box;
+[class*='col-']{
+	border:1px solid black;
 }

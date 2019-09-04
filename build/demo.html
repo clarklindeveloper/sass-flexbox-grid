@@ -15,37 +15,56 @@
 	</head>
 	<body>
 		<main>
+			<!-- responsive -->
 			<section>
 				<h2>Responsive</h2>
 				<div class="container">
 					<div class="row">
-						<div class="col-red col-md-6 col-lg-8">
-							hello world
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+							col-xs-12 col-sm-12 col-lg-8 col-md-6
 						</div>
-						<div class="col-green col-md-4 col-lg-2">
-							hello world
+						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-2">
+							col-xs-12 col-sm-12 col-lg-2 col-md-4
 						</div>
-						<div class="col-blue col-md-2 col-lg-2">
-							hello world
+						<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+							col-xs-12 col-sm-12 col-lg-2 col-md-2
 						</div>
 					</div>
 				</div>
 			</section>
-
+		
+			<!-- intuitive -->
+			<section>
+				<h2>Intuitive</h2>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-auto-width">
+							col-lg-auto-width
+						</div>
+						<div class="col-lg-auto-width">
+							col-lg-auto-width
+						</div>
+						<div class="col-lg-auto-width">
+							col-lg-auto-width
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- offsets -->
 			<section>
 				<h2>Offsets</h2>
 				<div class="container">
 					<div class="row">
 						<div
-							class="col-red col-sm-offset-2 col-md-offset-0 col-md-6 col-lg-offset-2 col-lg-4"
+							class="col col-sm-offset-2 col-md-offset-0 col-md-6 col-lg-offset-2 col-lg-4"
 						>
-							hello world
+							col col-sm-offset-2 col-md-offset-0 col-md-6 col-lg-offset-2 col-lg-4
 						</div>
-						<div class="col-green col-md-4 col-lg-4">
-							hello world
+						<div class="col col-md-4 col-lg-4">
+							col col-md-4 col-lg-4
 						</div>
-						<div class="col-blue col-md-2 col-lg-2">
-							hello world
+						<div class="col col-md-2 col-lg-2">
+							col col-md-2 col-lg-2
 						</div>
 					</div>
 				</div>
@@ -55,31 +74,34 @@
 				<h2>Nested grid</h2>
 				<div class="container">
 					<div class="row">
-						<div class="col col-red col-md-6 col-lg-10">
+						<div class="col-md-6 col-lg-10">
+							col-md-6 col-lg-10
 							<div class="container">
 								<div class="row">
-									<div class="col-orange col">
+									<div class="col-lg-auto-width">
 										<div class="content">
-											1
+											col-lg-auto-width
 										</div>
 									</div>
-									<div class="col-orange col">
+									<div class="col-lg-auto-width">
 										<div class="content">
-											2
+											col-lg-auto-width
 										</div>
 									</div>
-									<div class="col-orange col">
-										<div class="content">3</div>
+									<div class="col-lg-auto-width">
+										<div class="content">
+											col-lg-auto-width
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 
-						<div class="col-green col-md-4 col-lg-1">
-							hello world
+						<div class="col-md-4 col-lg-1">
+							col-md-4 col-lg-1
 						</div>
-						<div class="col-blue col-md-2 col-lg-1">
-							hello world
+						<div class="col-md-2 col-lg-1">
+							col-md-2 col-lg-1
 						</div>
 					</div>
 				</div>
@@ -89,57 +111,61 @@
 				<h2>Nested container-fluid</h2>
 				<div class="container">
 					<div class="row">
-						<div class="col col-red col-md-6 col-lg-10">
-							<div class="content">
+						<div class="col col-md-6 col-lg-10">								
+							<div class="container-fluid">
 								<div class="row">
-									<div class="col col-orange col">
+									<div class="col-lg-auto-width">
 										<div class="content">
-											1
+											col-lg-auto-width
 										</div>
 									</div>
-									<div class="col col-orange col">
+									<div class="col-lg-auto-width">
 										<div class="content">
-											2
+											col-lg-auto-width
 										</div>
 									</div>
-									<div class="col col-orange col">
-										<div class="content">3</div>
+									<div class="col-lg-auto-width">
+										<div class="content">
+											col-lg-auto-width
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 
-						<div class="col col-green col-md-4 col-lg-1">
-							hello world
+						<div class="col col-md-4 col-lg-1">
+							col-md-4 col-lg-1
 						</div>
-						<div class="col col-blue col-md-2 col-lg-1">
-							hello world
+						<div class="col col-md-2 col-lg-1">
+							col-md-2 col-lg-1
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section>
+			<section class="theme-dark">
 				<h2>fluid</h2>
-				<div class="container-fluid">
+				<div class="container-fluid" style="background-color:#eee">
 					<div class="row">
-						<div class="col col-red">
-							hello
+						<div class="col">
+							container-fluid
 						</div>
 					</div>
 				</div>
 			</section>
 
 			<section>
-				<h2>max width</h2>
-				<div class="wrapper container">
-					<div class="row">
-						<div class="col col-red">1</div>
-						<div class="col col-red">2</div>
-						<div class="col col-red">3</div>
-						<div class="col col-red">4</div>
-						<div class="col col-red">5</div>
-						<div class="col col-red">6</div>
+				<h2>.wrapper max-width: 1200px</h2>
+				<div class="container-fluid" style="background-color:#eee">
+					<div class="wrapper container">
+						<div class="row">
+							<div class="col col-md-4 col-lg-2">col col-md-4 col-lg-2</div>
+							<div class="col col-md-4 col-lg-2">col col-md-4 col-lg-2</div>
+							<div class="col col-md-4 col-lg-2">col col-md-4 col-lg-2</div>
+							<div class="col col-md-4 col-lg-2">col col-md-4 col-lg-2</div>
+							<div class="col col-md-4 col-lg-2">col col-md-4 col-lg-2</div>
+							<div class="col col-md-4 col-lg-2">col col-md-4 col-lg-2</div>
+						</div>
 					</div>
 				</div>
 			</section>

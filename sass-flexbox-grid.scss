@@ -7,6 +7,7 @@ $gutter: 20px;
 $totalcolumns: 12;
 
 $breakpoints: (
+	'xs':0,
 	'sm': 577,
 	'md': 768,
 	'lg': 992,
@@ -53,10 +54,23 @@ $align-content: (
 	padding: $gutter / 2;
 }
 
-.container-fluid {
+// for nested containers with class container-fluid
+.row .container-fluid{
 	//padding: $gutter;
-	margin-left:-20px;
-	margin-right:-20px;
+	margin-left:-$gutter/2;
+	margin-right:-$gutter/2;
+	.row{
+		margin:0;
+	}
+}
+
+.container-fluid{
+	//padding: $gutter;
+	margin-left:-$gutter;
+	margin-right:-$gutter;
+	.row{
+		margin:0;
+	}
 }
 
 .row {
@@ -67,20 +81,31 @@ $align-content: (
 	flex-wrap: wrap;
 	//compensate for children's gutter
 	margin: -$gutter/2;
-	// // Overrides flexbox's default behavior of making all children equal height
+	align-self:stretch;
+	align-content: stretch;
+	align-items: stretch;
+	// Overrides flexbox's default behavior of making all children equal height
 	// align-items: flex-start; // If this was not in place it would require two classes to make a row full of unequal height columns aligned top, middle, bottom
 }
 
-[class*='col-'] {
+//if class starts with 'col'
+[class*='col'] {
 	box-sizing: border-box;
 	flex-grow: 1;
 	flex-basis: 1;
 	max-width: 100%;
-	display: block;
 	width: 100%;
-	height: 100%;
+	height: inherit;
 	padding: $gutter / 2;
+
 }
+
+//col height is height of content, default is same heights
+.col-height-content{
+	height:100% !important;
+}
+
+
 //--------------------------------------------------------
 //create the row col- and col-offset classes
 @each $prop, $val in $breakpoints {
@@ -100,6 +125,11 @@ $align-content: (
 				max-width: 100% / $totalcolumns * $i;
 				padding: $gutter / 2;
 			}
+			//auto widths
+			.col-#{$prop}-auto-width{
+				width:auto !important;
+			}
+
 		}
 
 		// allows reseting-offset
