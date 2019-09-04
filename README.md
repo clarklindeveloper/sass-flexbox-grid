@@ -6,6 +6,11 @@ also available at: https://www.npmjs.com/package/@clarklindeveloper/sass-flexbox
 
 preview: http://bit.ly/clarklindeveloper-sass-flexbox-grid
 
+# Update 1.0.9
+- updated demo files
+- fixed container-fluid and how it is used with .wrapper class
+- created class col-x-auto-width which makes columns dependant on number of elements where x is all the breakpoints
+
 # Update 1.0.8
 
 - Changed default value of .row flex-direction to row
