@@ -1,4 +1,4 @@
-# Sass flexbox grid
+# Scss flexbox grid
 
 super lightweight flexgrid with scss
 
