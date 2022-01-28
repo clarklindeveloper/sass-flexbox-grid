@@ -1,4 +1,4 @@
-# Scss flexbox grid
+# Scss flexbox grid (https://www.npmjs.com/package/@clarklindeveloper/sass-flexbox-grid)
 
 super lightweight flexgrid with scss
 
