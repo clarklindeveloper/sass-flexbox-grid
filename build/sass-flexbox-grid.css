@@ -56,7 +56,6 @@
   .row {
     flex-direction: row;
   }
-
   .col-xs-1 {
     width: auto;
     box-sizing: border-box;
@@ -66,11 +65,9 @@
     max-width: 8.3333333333%;
     padding: 10px;
   }
-
   .col-xs-auto-width {
     width: auto !important;
   }
-
   .col-xs-2 {
     width: auto;
     box-sizing: border-box;
@@ -80,11 +77,9 @@
     max-width: 16.6666666667%;
     padding: 10px;
   }
-
   .col-xs-auto-width {
     width: auto !important;
   }
-
   .col-xs-3 {
     width: auto;
     box-sizing: border-box;
@@ -94,11 +89,9 @@
     max-width: 25%;
     padding: 10px;
   }
-
   .col-xs-auto-width {
     width: auto !important;
   }
-
   .col-xs-4 {
     width: auto;
     box-sizing: border-box;
@@ -108,11 +101,9 @@
     max-width: 33.3333333333%;
     padding: 10px;
   }
-
   .col-xs-auto-width {
     width: auto !important;
   }
-
   .col-xs-5 {
     width: auto;
     box-sizing: border-box;
@@ -122,11 +113,9 @@
     max-width: 41.6666666667%;
     padding: 10px;
   }
-
   .col-xs-auto-width {
     width: auto !important;
   }
-
   .col-xs-6 {
     width: auto;
     box-sizing: border-box;
@@ -136,11 +125,9 @@
     max-width: 50%;
     padding: 10px;
   }
-
   .col-xs-auto-width {
     width: auto !important;
   }
-
   .col-xs-7 {
     width: auto;
     box-sizing: border-box;
@@ -150,11 +137,9 @@
     max-width: 58.3333333333%;
     padding: 10px;
   }
-
   .col-xs-auto-width {
     width: auto !important;
   }
-
   .col-xs-8 {
     width: auto;
     box-sizing: border-box;
@@ -164,11 +149,9 @@
     max-width: 66.6666666667%;
     padding: 10px;
   }
-
   .col-xs-auto-width {
     width: auto !important;
   }
-
   .col-xs-9 {
     width: auto;
     box-sizing: border-box;
@@ -178,11 +161,9 @@
     max-width: 75%;
     padding: 10px;
   }
-
   .col-xs-auto-width {
     width: auto !important;
   }
-
   .col-xs-10 {
     width: auto;
     box-sizing: border-box;
@@ -192,11 +173,9 @@
     max-width: 83.3333333333%;
     padding: 10px;
   }
-
   .col-xs-auto-width {
     width: auto !important;
   }
-
   .col-xs-11 {
     width: auto;
     box-sizing: border-box;
@@ -206,11 +185,9 @@
     max-width: 91.6666666667%;
     padding: 10px;
   }
-
   .col-xs-auto-width {
     width: auto !important;
   }
-
   .col-xs-12 {
     width: auto;
     box-sizing: border-box;
@@ -220,71 +197,57 @@
     max-width: 100%;
     padding: 10px;
   }
-
   .col-xs-auto-width {
     width: auto !important;
   }
-
   .col-xs-offset-0 {
     margin-left: 0%;
     padding: 10px;
   }
-
   .col-xs-offset-1 {
     margin-left: 8.3333333333%;
     padding: 10px;
   }
-
   .col-xs-offset-2 {
     margin-left: 16.6666666667%;
     padding: 10px;
   }
-
   .col-xs-offset-3 {
     margin-left: 25%;
     padding: 10px;
   }
-
   .col-xs-offset-4 {
     margin-left: 33.3333333333%;
     padding: 10px;
   }
-
   .col-xs-offset-5 {
     margin-left: 41.6666666667%;
     padding: 10px;
   }
-
   .col-xs-offset-6 {
     margin-left: 50%;
     padding: 10px;
   }
-
   .col-xs-offset-7 {
     margin-left: 58.3333333333%;
     padding: 10px;
   }
-
   .col-xs-offset-8 {
     margin-left: 66.6666666667%;
     padding: 10px;
   }
-
   .col-xs-offset-9 {
     margin-left: 75%;
     padding: 10px;
   }
-
   .col-xs-offset-10 {
     margin-left: 83.3333333333%;
     padding: 10px;
   }
-
   .col-xs-offset-11 {
     margin-left: 91.6666666667%;
     padding: 10px;
   }
-
   .col-xs-offset-12 {
     margin-left: 100%;
     padding: 10px;
@@ -294,7 +257,6 @@
   .row {
     flex-direction: row;
   }
-
   .col-sm-1 {
     width: auto;
     box-sizing: border-box;
@@ -304,11 +266,9 @@
     max-width: 8.3333333333%;
     padding: 10px;
   }
-
   .col-sm-auto-width {
     width: auto !important;
   }
-
   .col-sm-2 {
     width: auto;
     box-sizing: border-box;
@@ -318,11 +278,9 @@
     max-width: 16.6666666667%;
     padding: 10px;
   }
-
   .col-sm-auto-width {
     width: auto !important;
   }
-
   .col-sm-3 {
     width: auto;
     box-sizing: border-box;
@@ -332,11 +290,9 @@
     max-width: 25%;
     padding: 10px;
   }
-
   .col-sm-auto-width {
     width: auto !important;
   }
-
   .col-sm-4 {
     width: auto;
     box-sizing: border-box;
@@ -346,11 +302,9 @@
     max-width: 33.3333333333%;
     padding: 10px;
   }
-
   .col-sm-auto-width {
     width: auto !important;
   }
-
   .col-sm-5 {
     width: auto;
     box-sizing: border-box;
@@ -360,11 +314,9 @@
     max-width: 41.6666666667%;
     padding: 10px;
   }
-
   .col-sm-auto-width {
     width: auto !important;
   }
-
   .col-sm-6 {
     width: auto;
     box-sizing: border-box;
@@ -374,11 +326,9 @@
     max-width: 50%;
     padding: 10px;
   }
-
   .col-sm-auto-width {
     width: auto !important;
   }
-
   .col-sm-7 {
     width: auto;
     box-sizing: border-box;
@@ -388,11 +338,9 @@
     max-width: 58.3333333333%;
     padding: 10px;
   }
-
   .col-sm-auto-width {
     width: auto !important;
   }
-
   .col-sm-8 {
     width: auto;
     box-sizing: border-box;
@@ -402,11 +350,9 @@
     max-width: 66.6666666667%;
     padding: 10px;
   }
-
   .col-sm-auto-width {
     width: auto !important;
   }
-
   .col-sm-9 {
     width: auto;
     box-sizing: border-box;
@@ -416,11 +362,9 @@
     max-width: 75%;
     padding: 10px;
   }
-
   .col-sm-auto-width {
     width: auto !important;
   }
-
   .col-sm-10 {
     width: auto;
     box-sizing: border-box;
@@ -430,11 +374,9 @@
     max-width: 83.3333333333%;
     padding: 10px;
   }
-
   .col-sm-auto-width {
     width: auto !important;
   }
-
   .col-sm-11 {
     width: auto;
     box-sizing: border-box;
@@ -444,11 +386,9 @@
     max-width: 91.6666666667%;
     padding: 10px;
   }
-
   .col-sm-auto-width {
     width: auto !important;
   }
-
   .col-sm-12 {
     width: auto;
     box-sizing: border-box;
@@ -458,71 +398,57 @@
     max-width: 100%;
     padding: 10px;
   }
-
   .col-sm-auto-width {
     width: auto !important;
   }
-
   .col-sm-offset-0 {
     margin-left: 0%;
     padding: 10px;
   }
-
   .col-sm-offset-1 {
     margin-left: 8.3333333333%;
     padding: 10px;
   }
-
   .col-sm-offset-2 {
     margin-left: 16.6666666667%;
     padding: 10px;
   }
-
   .col-sm-offset-3 {
     margin-left: 25%;
     padding: 10px;
   }
-
   .col-sm-offset-4 {
     margin-left: 33.3333333333%;
     padding: 10px;
   }
-
   .col-sm-offset-5 {
     margin-left: 41.6666666667%;
     padding: 10px;
   }
-
   .col-sm-offset-6 {
     margin-left: 50%;
     padding: 10px;
   }
-
   .col-sm-offset-7 {
     margin-left: 58.3333333333%;
     padding: 10px;
   }
-
   .col-sm-offset-8 {
     margin-left: 66.6666666667%;
     padding: 10px;
   }
-
   .col-sm-offset-9 {
     margin-left: 75%;
     padding: 10px;
   }
-
   .col-sm-offset-10 {
     margin-left: 83.3333333333%;
     padding: 10px;
   }
-
   .col-sm-offset-11 {
     margin-left: 91.6666666667%;
     padding: 10px;
   }
-
   .col-sm-offset-12 {
     margin-left: 100%;
     padding: 10px;
@@ -532,7 +458,6 @@
   .row {
     flex-direction: row;
   }
-
   .col-md-1 {
     width: auto;
     box-sizing: border-box;
@@ -542,11 +467,9 @@
     max-width: 8.3333333333%;
     padding: 10px;
   }
-
   .col-md-auto-width {
     width: auto !important;
   }
-
   .col-md-2 {
     width: auto;
     box-sizing: border-box;
@@ -556,11 +479,9 @@
     max-width: 16.6666666667%;
     padding: 10px;
   }
-
   .col-md-auto-width {
     width: auto !important;
   }
-
   .col-md-3 {
     width: auto;
     box-sizing: border-box;
@@ -570,11 +491,9 @@
     max-width: 25%;
     padding: 10px;
   }
-
   .col-md-auto-width {
     width: auto !important;
   }
-
   .col-md-4 {
     width: auto;
     box-sizing: border-box;
@@ -584,11 +503,9 @@
     max-width: 33.3333333333%;
     padding: 10px;
   }
-
   .col-md-auto-width {
     width: auto !important;
   }
-
   .col-md-5 {
     width: auto;
     box-sizing: border-box;
@@ -598,11 +515,9 @@
     max-width: 41.6666666667%;
     padding: 10px;
   }
-
   .col-md-auto-width {
     width: auto !important;
   }
-
   .col-md-6 {
     width: auto;
     box-sizing: border-box;
@@ -612,11 +527,9 @@
     max-width: 50%;
     padding: 10px;
   }
-
   .col-md-auto-width {
     width: auto !important;
   }
-
   .col-md-7 {
     width: auto;
     box-sizing: border-box;
@@ -626,11 +539,9 @@
     max-width: 58.3333333333%;
     padding: 10px;
   }
-
   .col-md-auto-width {
     width: auto !important;
   }
-
   .col-md-8 {
     width: auto;
     box-sizing: border-box;
@@ -640,11 +551,9 @@
     max-width: 66.6666666667%;
     padding: 10px;
   }
-
   .col-md-auto-width {
     width: auto !important;
   }
-
   .col-md-9 {
     width: auto;
     box-sizing: border-box;
@@ -654,11 +563,9 @@
     max-width: 75%;
     padding: 10px;
   }
-
   .col-md-auto-width {
     width: auto !important;
   }
-
   .col-md-10 {
     width: auto;
     box-sizing: border-box;
@@ -668,11 +575,9 @@
     max-width: 83.3333333333%;
     padding: 10px;
   }
-
   .col-md-auto-width {
     width: auto !important;
   }
-
   .col-md-11 {
     width: auto;
     box-sizing: border-box;
@@ -682,11 +587,9 @@
     max-width: 91.6666666667%;
     padding: 10px;
   }
-
   .col-md-auto-width {
     width: auto !important;
   }
-
   .col-md-12 {
     width: auto;
     box-sizing: border-box;
@@ -696,71 +599,57 @@
     max-width: 100%;
     padding: 10px;
   }
-
   .col-md-auto-width {
     width: auto !important;
   }
-
   .col-md-offset-0 {
     margin-left: 0%;
     padding: 10px;
   }
-
   .col-md-offset-1 {
     margin-left: 8.3333333333%;
     padding: 10px;
   }
-
   .col-md-offset-2 {
     margin-left: 16.6666666667%;
     padding: 10px;
   }
-
   .col-md-offset-3 {
     margin-left: 25%;
     padding: 10px;
   }
-
   .col-md-offset-4 {
     margin-left: 33.3333333333%;
     padding: 10px;
   }
-
   .col-md-offset-5 {
     margin-left: 41.6666666667%;
     padding: 10px;
   }
-
   .col-md-offset-6 {
     margin-left: 50%;
     padding: 10px;
   }
-
   .col-md-offset-7 {
     margin-left: 58.3333333333%;
     padding: 10px;
   }
-
   .col-md-offset-8 {
     margin-left: 66.6666666667%;
     padding: 10px;
   }
-
   .col-md-offset-9 {
     margin-left: 75%;
     padding: 10px;
   }
-
   .col-md-offset-10 {
     margin-left: 83.3333333333%;
     padding: 10px;
   }
-
   .col-md-offset-11 {
     margin-left: 91.6666666667%;
     padding: 10px;
   }
-
   .col-md-offset-12 {
     margin-left: 100%;
     padding: 10px;
@@ -770,7 +659,6 @@
   .row {
     flex-direction: row;
   }
-
   .col-lg-1 {
     width: auto;
     box-sizing: border-box;
@@ -780,11 +668,9 @@
     max-width: 8.3333333333%;
     padding: 10px;
   }
-
   .col-lg-auto-width {
     width: auto !important;
   }
-
   .col-lg-2 {
     width: auto;
     box-sizing: border-box;
@@ -794,11 +680,9 @@
     max-width: 16.6666666667%;
     padding: 10px;
   }
-
   .col-lg-auto-width {
     width: auto !important;
   }
-
   .col-lg-3 {
     width: auto;
     box-sizing: border-box;
@@ -808,11 +692,9 @@
     max-width: 25%;
     padding: 10px;
   }
-
   .col-lg-auto-width {
     width: auto !important;
   }
-
   .col-lg-4 {
     width: auto;
     box-sizing: border-box;
@@ -822,11 +704,9 @@
     max-width: 33.3333333333%;
     padding: 10px;
   }
-
   .col-lg-auto-width {
     width: auto !important;
   }
-
   .col-lg-5 {
     width: auto;
     box-sizing: border-box;
@@ -836,11 +716,9 @@
     max-width: 41.6666666667%;
     padding: 10px;
   }
-
   .col-lg-auto-width {
     width: auto !important;
   }
-
   .col-lg-6 {
     width: auto;
     box-sizing: border-box;
@@ -850,11 +728,9 @@
     max-width: 50%;
     padding: 10px;
   }
-
   .col-lg-auto-width {
     width: auto !important;
   }
-
   .col-lg-7 {
     width: auto;
     box-sizing: border-box;
@@ -864,11 +740,9 @@
     max-width: 58.3333333333%;
     padding: 10px;
   }
-
   .col-lg-auto-width {
     width: auto !important;
   }
-
   .col-lg-8 {
     width: auto;
     box-sizing: border-box;
@@ -878,11 +752,9 @@
     max-width: 66.6666666667%;
     padding: 10px;
   }
-
   .col-lg-auto-width {
     width: auto !important;
   }
-
   .col-lg-9 {
     width: auto;
     box-sizing: border-box;
@@ -892,11 +764,9 @@
     max-width: 75%;
     padding: 10px;
   }
-
   .col-lg-auto-width {
     width: auto !important;
   }
-
   .col-lg-10 {
     width: auto;
     box-sizing: border-box;
@@ -906,11 +776,9 @@
     max-width: 83.3333333333%;
     padding: 10px;
   }
-
   .col-lg-auto-width {
     width: auto !important;
   }
-
   .col-lg-11 {
     width: auto;
     box-sizing: border-box;
@@ -920,11 +788,9 @@
     max-width: 91.6666666667%;
     padding: 10px;
   }
-
   .col-lg-auto-width {
     width: auto !important;
   }
-
   .col-lg-12 {
     width: auto;
     box-sizing: border-box;
@@ -934,71 +800,57 @@
     max-width: 100%;
     padding: 10px;
   }
-
   .col-lg-auto-width {
     width: auto !important;
   }
-
   .col-lg-offset-0 {
     margin-left: 0%;
     padding: 10px;
   }
-
   .col-lg-offset-1 {
     margin-left: 8.3333333333%;
     padding: 10px;
   }
-
   .col-lg-offset-2 {
     margin-left: 16.6666666667%;
     padding: 10px;
   }
-
   .col-lg-offset-3 {
     margin-left: 25%;
     padding: 10px;
   }
-
   .col-lg-offset-4 {
     margin-left: 33.3333333333%;
     padding: 10px;
   }
-
   .col-lg-offset-5 {
     margin-left: 41.6666666667%;
     padding: 10px;
   }
-
   .col-lg-offset-6 {
     margin-left: 50%;
     padding: 10px;
   }
-
   .col-lg-offset-7 {
     margin-left: 58.3333333333%;
     padding: 10px;
   }
-
   .col-lg-offset-8 {
     margin-left: 66.6666666667%;
     padding: 10px;
   }
-
   .col-lg-offset-9 {
     margin-left: 75%;
     padding: 10px;
   }
-
   .col-lg-offset-10 {
     margin-left: 83.3333333333%;
     padding: 10px;
   }
-
   .col-lg-offset-11 {
     margin-left: 91.6666666667%;
     padding: 10px;
   }
-
   .col-lg-offset-12 {
     margin-left: 100%;
     padding: 10px;
@@ -1008,7 +860,6 @@
   .row {
     flex-direction: row;
   }
-
   .col-xl-1 {
     width: auto;
     box-sizing: border-box;
@@ -1018,11 +869,9 @@
     max-width: 8.3333333333%;
     padding: 10px;
   }
-
   .col-xl-auto-width {
     width: auto !important;
   }
-
   .col-xl-2 {
     width: auto;
     box-sizing: border-box;
@@ -1032,11 +881,9 @@
     max-width: 16.6666666667%;
     padding: 10px;
   }
-
   .col-xl-auto-width {
     width: auto !important;
   }
-
   .col-xl-3 {
     width: auto;
     box-sizing: border-box;
@@ -1046,11 +893,9 @@
     max-width: 25%;
     padding: 10px;
   }
-
   .col-xl-auto-width {
     width: auto !important;
   }
-
   .col-xl-4 {
     width: auto;
     box-sizing: border-box;
@@ -1060,11 +905,9 @@
     max-width: 33.3333333333%;
     padding: 10px;
   }
-
   .col-xl-auto-width {
     width: auto !important;
   }
-
   .col-xl-5 {
     width: auto;
     box-sizing: border-box;
@@ -1074,11 +917,9 @@
     max-width: 41.6666666667%;
     padding: 10px;
   }
-
   .col-xl-auto-width {
     width: auto !important;
   }
-
   .col-xl-6 {
     width: auto;
     box-sizing: border-box;
@@ -1088,11 +929,9 @@
     max-width: 50%;
     padding: 10px;
   }
-
   .col-xl-auto-width {
     width: auto !important;
   }
-
   .col-xl-7 {
     width: auto;
     box-sizing: border-box;
@@ -1102,11 +941,9 @@
     max-width: 58.3333333333%;
     padding: 10px;
   }
-
   .col-xl-auto-width {
     width: auto !important;
   }
-
   .col-xl-8 {
     width: auto;
     box-sizing: border-box;
@@ -1116,11 +953,9 @@
     max-width: 66.6666666667%;
     padding: 10px;
   }
-
   .col-xl-auto-width {
     width: auto !important;
   }
-
   .col-xl-9 {
     width: auto;
     box-sizing: border-box;
@@ -1130,11 +965,9 @@
     max-width: 75%;
     padding: 10px;
   }
-
   .col-xl-auto-width {
     width: auto !important;
   }
-
   .col-xl-10 {
     width: auto;
     box-sizing: border-box;
@@ -1144,11 +977,9 @@
     max-width: 83.3333333333%;
     padding: 10px;
   }
-
   .col-xl-auto-width {
     width: auto !important;
   }
-
   .col-xl-11 {
     width: auto;
     box-sizing: border-box;
@@ -1158,11 +989,9 @@
     max-width: 91.6666666667%;
     padding: 10px;
   }
-
   .col-xl-auto-width {
     width: auto !important;
   }
-
   .col-xl-12 {
     width: auto;
     box-sizing: border-box;
@@ -1172,71 +1001,57 @@
     max-width: 100%;
     padding: 10px;
   }
-
   .col-xl-auto-width {
     width: auto !important;
   }
-
   .col-xl-offset-0 {
     margin-left: 0%;
     padding: 10px;
   }
-
   .col-xl-offset-1 {
     margin-left: 8.3333333333%;
     padding: 10px;
   }
-
   .col-xl-offset-2 {
     margin-left: 16.6666666667%;
     padding: 10px;
   }
-
   .col-xl-offset-3 {
     margin-left: 25%;
     padding: 10px;
   }
-
   .col-xl-offset-4 {
     margin-left: 33.3333333333%;
     padding: 10px;
   }
-
   .col-xl-offset-5 {
     margin-left: 41.6666666667%;
     padding: 10px;
   }
-
   .col-xl-offset-6 {
     margin-left: 50%;
     padding: 10px;
   }
-
   .col-xl-offset-7 {
     margin-left: 58.3333333333%;
     padding: 10px;
   }
-
   .col-xl-offset-8 {
     margin-left: 66.6666666667%;
     padding: 10px;
   }
-
   .col-xl-offset-9 {
     margin-left: 75%;
     padding: 10px;
   }
-
   .col-xl-offset-10 {
     margin-left: 83.3333333333%;
     padding: 10px;
   }
-
   .col-xl-offset-11 {
     margin-left: 91.6666666667%;
     padding: 10px;
   }
-
   .col-xl-offset-12 {
     margin-left: 100%;
     padding: 10px;
@@ -1246,7 +1061,6 @@
   .row {
     flex-direction: row;
   }
-
   .col-xxl-1 {
     width: auto;
     box-sizing: border-box;
@@ -1256,11 +1070,9 @@
     max-width: 8.3333333333%;
     padding: 10px;
   }
-
   .col-xxl-auto-width {
     width: auto !important;
   }
-
   .col-xxl-2 {
     width: auto;
     box-sizing: border-box;
@@ -1270,11 +1082,9 @@
     max-width: 16.6666666667%;
     padding: 10px;
   }
-
   .col-xxl-auto-width {
     width: auto !important;
   }
-
   .col-xxl-3 {
     width: auto;
     box-sizing: border-box;
@@ -1284,11 +1094,9 @@
     max-width: 25%;
     padding: 10px;
   }
-
   .col-xxl-auto-width {
     width: auto !important;
   }
-
   .col-xxl-4 {
     width: auto;
     box-sizing: border-box;
@@ -1298,11 +1106,9 @@
     max-width: 33.3333333333%;
     padding: 10px;
   }
-
   .col-xxl-auto-width {
     width: auto !important;
   }
-
   .col-xxl-5 {
     width: auto;
     box-sizing: border-box;
@@ -1312,11 +1118,9 @@
     max-width: 41.6666666667%;
     padding: 10px;
   }
-
   .col-xxl-auto-width {
     width: auto !important;
   }
-
   .col-xxl-6 {
     width: auto;
     box-sizing: border-box;
@@ -1326,11 +1130,9 @@
     max-width: 50%;
     padding: 10px;
   }
-
   .col-xxl-auto-width {
     width: auto !important;
   }
-
   .col-xxl-7 {
     width: auto;
     box-sizing: border-box;
@@ -1340,11 +1142,9 @@
     max-width: 58.3333333333%;
     padding: 10px;
   }
-
   .col-xxl-auto-width {
     width: auto !important;
   }
-
   .col-xxl-8 {
     width: auto;
     box-sizing: border-box;
@@ -1354,11 +1154,9 @@
     max-width: 66.6666666667%;
     padding: 10px;
   }
-
   .col-xxl-auto-width {
     width: auto !important;
   }
-
   .col-xxl-9 {
     width: auto;
     box-sizing: border-box;
@@ -1368,11 +1166,9 @@
     max-width: 75%;
     padding: 10px;
   }
-
   .col-xxl-auto-width {
     width: auto !important;
   }
-
   .col-xxl-10 {
     width: auto;
     box-sizing: border-box;
@@ -1382,11 +1178,9 @@
     max-width: 83.3333333333%;
     padding: 10px;
   }
-
   .col-xxl-auto-width {
     width: auto !important;
   }
-
   .col-xxl-11 {
     width: auto;
     box-sizing: border-box;
@@ -1396,11 +1190,9 @@
     max-width: 91.6666666667%;
     padding: 10px;
   }
-
   .col-xxl-auto-width {
     width: auto !important;
   }
-
   .col-xxl-12 {
     width: auto;
     box-sizing: border-box;
@@ -1410,71 +1202,57 @@
     max-width: 100%;
     padding: 10px;
   }
-
   .col-xxl-auto-width {
     width: auto !important;
   }
-
   .col-xxl-offset-0 {
     margin-left: 0%;
     padding: 10px;
   }
-
   .col-xxl-offset-1 {
     margin-left: 8.3333333333%;
     padding: 10px;
   }
-
   .col-xxl-offset-2 {
     margin-left: 16.6666666667%;
     padding: 10px;
   }
-
   .col-xxl-offset-3 {
     margin-left: 25%;
     padding: 10px;
   }
-
   .col-xxl-offset-4 {
     margin-left: 33.3333333333%;
     padding: 10px;
   }
-
   .col-xxl-offset-5 {
     margin-left: 41.6666666667%;
     padding: 10px;
   }
-
   .col-xxl-offset-6 {
     margin-left: 50%;
     padding: 10px;
   }
-
   .col-xxl-offset-7 {
     margin-left: 58.3333333333%;
     padding: 10px;
   }
-
   .col-xxl-offset-8 {
     margin-left: 66.6666666667%;
     padding: 10px;
   }
-
   .col-xxl-offset-9 {
     margin-left: 75%;
     padding: 10px;
   }
-
   .col-xxl-offset-10 {
     margin-left: 83.3333333333%;
     padding: 10px;
   }
-
   .col-xxl-offset-11 {
     margin-left: 91.6666666667%;
     padding: 10px;
   }
-
   .col-xxl-offset-12 {
     margin-left: 100%;
     padding: 10px;

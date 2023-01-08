@@ -1,27 +1,27 @@
 {
-	"name": "@clarklindeveloper/sass-flexbox-grid",
-	"version": "1.0.11",
-	"description": "super lightweight scss flex grid",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "sass sass-flexbox-grid.scss build/sass-flexbox-grid.css"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/clarklindeveloper/sass-flexbox-grid.git"
-	},
-	"keywords": [
-		"flexgrid",
-		"scss",
-		"javascript"
-	],
-	"author": "clarklindeveloper",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/clarklindeveloper/sass-flexbox-grid.git"
-	},
-	"homepage": "https://github.com/clarklindeveloper/sass-flexbox-grid#readme",
-	"devDependencies": {
-		"sass": "^1.22.5"
-	}
+  "name": "@swagfinger/sass-flexbox-grid",
+  "version": "1.0.11",
+  "description": "super lightweight scss flex grid",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass sass-flexbox-grid.scss build/sass-flexbox-grid.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swagfinger/swagfinger-component-scss-flexbox-grid.git"
+  },
+  "keywords": [
+    "flexgrid",
+    "scss",
+    "javascript"
+  ],
+  "author": "clarklindeveloper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swagfinger/swagfinger-component-scss-flexbox-grid.git"
+  },
+  "homepage": "https://github.com/swagfinger/swagfinger-component-scss-flexbox-grid#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
 }

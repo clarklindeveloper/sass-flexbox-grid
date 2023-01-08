@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+
+    <!-- import css styles -->
+    <link rel="stylesheet" type="text/css" href="./sass-flexbox-grid.css" />
+    <!-- css for this demo -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+  </head>
+  <body>
+    <main>
+      <!-- responsive -->
+      <section>
+        <h2>Responsive</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+              col-xs-12 col-sm-12 col-md-6 col-lg-8
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2">
+              col-xs-12 col-sm-12 col-md-4 col-lg-2
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+              col-xs-12 col-sm-12 col-md-2 col-lg-2
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- intuitive -->
+      <section>
+        <h2>Intuitive</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-auto-width">col-lg-auto-width</div>
+            <div class="col-lg-auto-width">col-lg-auto-width</div>
+            <div class="col-lg-auto-width">col-lg-auto-width</div>
+          </div>
+        </div>
+      </section>
+      <!-- offsets -->
+      <section>
+        <h2>Offsets</h2>
+        <div class="container">
+          <div class="row">
+            <div
+              class="col col-sm-offset-2 col-md-offset-0 col-md-6 col-lg-offset-2 col-lg-4"
+            >
+              col col-sm-offset-2 col-md-offset-0 col-md-6 col-lg-offset-2
+              col-lg-4
+            </div>
+            <div class="col col-md-4 col-lg-4">col col-md-4 col-lg-4</div>
+            <div class="col col-md-2 col-lg-2">col col-md-2 col-lg-2</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Nested grid</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-10">
+              col-md-6 col-lg-10
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-auto-width">
+                    <div class="content">col-lg-auto-width</div>
+                  </div>
+                  <div class="col-lg-auto-width">
+                    <div class="content">col-lg-auto-width</div>
+                  </div>
+                  <div class="col-lg-auto-width">
+                    <div class="content">col-lg-auto-width</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-lg-1">col-md-4 col-lg-1</div>
+            <div class="col-md-2 col-lg-1">col-md-2 col-lg-1</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Nested container-fluid</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col col-md-6 col-lg-10">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-auto-width">
+                    <div class="content">col-lg-auto-width</div>
+                  </div>
+                  <div class="col-lg-auto-width">
+                    <div class="content">col-lg-auto-width</div>
+                  </div>
+                  <div class="col-lg-auto-width">
+                    <div class="content">col-lg-auto-width</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-4 col-lg-1">col-md-4 col-lg-1</div>
+            <div class="col col-md-2 col-lg-1">col-md-2 col-lg-1</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="theme-dark">
+        <h2>fluid</h2>
+        <div class="container-fluid" style="background-color: #eee">
+          <div class="row">
+            <div class="col">container-fluid</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>.wrapper max-width: 1200px</h2>
+        <div class="container-fluid" style="background-color: #eee">
+          <div class="wrapper container">
+            <div class="row">
+              <div class="col col-md-4 col-lg-2">col col-md-4 col-lg-2</div>
+              <div class="col col-md-4 col-lg-2">col col-md-4 col-lg-2</div>
+              <div class="col col-md-4 col-lg-2">col col-md-4 col-lg-2</div>
+              <div class="col col-md-4 col-lg-2">col col-md-4 col-lg-2</div>
+              <div class="col col-md-4 col-lg-2">col col-md-4 col-lg-2</div>
+              <div class="col col-md-4 col-lg-2">col col-md-4 col-lg-2</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
