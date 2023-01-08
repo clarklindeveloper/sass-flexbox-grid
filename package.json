@@ -1,6 +1,6 @@
 {
   "name": "@swagfinger/sass-flexbox-grid",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "super lightweight scss flex grid",
   "scripts": {
     "build": "sass sass-flexbox-grid.scss build/sass-flexbox-grid.css"

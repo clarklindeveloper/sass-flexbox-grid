@@ -2,13 +2,25 @@
 
 super lightweight flexgrid with scss
 
+## test link
+
+[https://swagfinger-component-scss-flexbox-grid.vercel.app/](https://swagfinger-component-scss-flexbox-grid.vercel.app/)
+
+# Update 1.0.12
+
+- fix sass deprecation of /
+- change indentation to spacing for file formatting
+
 # Update 1.0.11
+
 - Version bump
 
-# Update 1.0.10 
+# Update 1.0.10
+
 - fixed container-fluid top and bottom margins
 
 # Update 1.0.9
+
 - updated demo files
 - fixed container-fluid and how it is used with .wrapper class
 - created class col-x-auto-width which makes columns dependant on number of elements where x is all the breakpoints
